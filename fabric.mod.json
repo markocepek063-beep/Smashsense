@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "smashsense",
+  "version": "${version}",
+  "name": "SmashSense",
+  "description": "Mace PvP HUD: live fall meter, smash-ready indicator and predicted smash damage under your crosshair.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.smashsense.SmashSense"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
